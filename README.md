@@ -49,7 +49,7 @@ Test Input: **Death comes often to the soldiers and marines who are fighting in 
 ## Distribution of the Output Length Increament
 
 <div  align="center">    
- <img src="https://github.com/anonymousGithub2022/NMTSloth/blob/main/fig/distribution1.png" width="1300" height="300" alt="cdf"/><br/>
+ <img src="https://github.com/SeekingDream/NMTSloth/blob/main/fig/distribution1.png" width="1300" height="300" alt="cdf"/><br/>
 </div>    
 
 The above figure shows the Probability Density Function (PDF) and Cumulative Distribution Function (CDF) of the output length increment.
@@ -60,7 +60,7 @@ For better visualization, we use **log2(I-Loops + 100%)** as the x-axis. From th
 
 ## Relationship Between Output Length and Latency/Energy
 <div  align="center">    
- <img src="https://github.com/anonymousGithub2022/NMTSloth/blob/main/fig/study.png" width="1300" height="400" alt="cdf"/><br/>
+ <img src="https://github.com/SeekingDream/NMTSloth/blob/main/fig/study.png" width="1300" height="400" alt="cdf"/><br/>
 </div>    
 
 The above figure shows the relationship between output length and latency/energy of randomly selected seed inputs. From the results, we observe that there is a linear relationship between output length and latency/energy.
