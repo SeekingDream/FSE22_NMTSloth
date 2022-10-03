@@ -29,6 +29,9 @@ At high level, *NMTSloth* includes three main steps: (i) find critical tokens, (
 * **measure_senstive.py** -this script measures the hyperparameter senstivelity.
 * **gpuXX.sh** -bash script to run experiments (**XX** are integer numbers).
 
+## Setup
+
+We recommend to use ``conda`` to manage the python libraries and the requirement libraries are listed in ``requirements.txt``. So run ``pip install -r requirements.txt``.
 
 ## How to run
 
