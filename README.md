@@ -47,49 +47,11 @@ Seed Input:  **Death comes often to the soldiers and marines who are fighting in
 Test Input: **Death comes often to the soldiers and marines who are fighting in anbar province, which is roughly the (size of of louisiana and is the most intractable region in iraq.** 
 
 
-
-
-## Distribution of the Output Length Increament
-
-<div  align="center">    
- <img src="https://github.com/SeekingDream/NMTSloth/blob/main/fig/distribution1.png" width="1300" height="300" alt="cdf"/><br/>
-</div>    
-
-The above figure shows the Probability Density Function (PDF) and Cumulative Distribution Function (CDF) of the output length increment.
-For better visualization, we use **log2(I-Loops + 100%)** as the x-axis. From the figure, we can observe that the output length increment distribution differs for NMTSloth and the comparison baselines. Specifically, NMTSloth can generate test inputs that produce super longer translations (i.e., around $2^{14}$% maximum increment for H-NLP, $2^{12}$% maximum increment for AllenAI, and $2^{10}$% maximum increment for T5) while the baselines can not.
-
-
-
-
 ## Relationship Between Output Length and Latency/Energy
 <div  align="center">    
  <img src="https://github.com/SeekingDream/NMTSloth/blob/main/fig/study.png" width="1300" height="400" alt="cdf"/><br/>
 </div>    
 
 The above figure shows the relationship between output length and latency/energy of randomly selected seed inputs. From the results, we observe that there is a linear relationship between output length and latency/energy.
-
-
-## Distribution of the Latency/Energy Increament
-
-<div  align="center">    
- <img src="https://github.com/SeekingDream/NMTSloth/blob/main/fig/new_distribution_1.png" width="1000" height="170" alt="cdf"/><br/>
-</div>    
-
-                                 Distribution of H-NLP Latency/Energy Increament
-
-<div  align="center">    
- <img src="https://github.com/SeekingDream/NMTSloth/blob/main/fig/new_distribution_2.png" width="1000" height="170" alt="cdf"/><br/>
-</div>    
-
-                                 Distribution of AllenAI Latency/Energy Increament 
-
-<div  align="center">    
- <img src="https://github.com/SeekingDream/NMTSloth/blob/main/fig/new_distribution_3.png" width="1000" height="170" alt="cdf"/><br/>
-</div>    
-
-                                 Distribution of T5 Latency/Energy Increament
-
-The above figure shows the Probability Density Function (PDF) and Cumulative Distribution Function (CDF) of latency/energy increament.
-From the figure, we can observe that NMTSloth can generate test inputs that requires much more computational resources than the baselines.
 
 
