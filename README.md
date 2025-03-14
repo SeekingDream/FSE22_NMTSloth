@@ -2,6 +2,32 @@
 
 *NMTSloth* is designed to generate test samples to test efficiency degradation of neural machine translation (NMT) systems.  Specifically, *NMTSloth* perturbs the seed sentences with three types of perturbations, and the perturbed inputs will consume more computational resources.
 
+## Our Published Paper
+[NMTSloth: understanding and testing efficiency degradation of neural machine translation systems (FSE 2022)](https://dl.acm.org/doi/10.1145/3540250.3549102)
+
+[LLMEffiChecker: Understanding and Testing Efficiency Degradation of Large Language Models (TOSEM 2024)](https://arxiv.org/abs/2210.03696)
+
+
+## Citation of Our Work
+```
+@inproceedings{chen2022nmtsloth,
+  title={Nmtsloth: understanding and testing efficiency degradation of neural machine translation systems},
+  author={Chen, Simin and Liu, Cong and Haque, Mirazul and Song, Zihe and Yang, Wei},
+  booktitle={Proceedings of the 30th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering},
+  pages={1148--1160},
+  year={2022}
+}
+@article{feng2024llmeffichecker,
+  title={Llmeffichecker: Understanding and testing efficiency degradation of large language models},
+  author={Feng, Xiaoning and Han, Xiaohong and Chen, Simin and Yang, Wei},
+  journal={ACM Transactions on Software Engineering and Methodology},
+  volume={33},
+  number={7},
+  pages={1--38},
+  year={2024},
+  publisher={ACM New York, NY}
+}
+```
 
 
 ## Design Overview
@@ -47,11 +73,6 @@ Seed Input:  **Death comes often to the soldiers and marines who are fighting in
 Test Input: **Death comes often to the soldiers and marines who are fighting in anbar province, which is roughly the (size of of louisiana and is the most intractable region in iraq.** 
 
 
-## Relationship Between Output Length and Latency/Energy
-<div  align="center">    
- <img src="https://github.com/SeekingDream/NMTSloth/blob/main/fig/study.png" width="1300" height="400" alt="cdf"/><br/>
-</div>    
 
-The above figure shows the relationship between output length and latency/energy of randomly selected seed inputs. From the results, we observe that there is a linear relationship between output length and latency/energy.
 
 
